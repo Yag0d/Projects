@@ -1,0 +1,16 @@
+package slap;
+
+public class Teste {
+	
+	private String nome;
+	
+	public String setName(String novoNome) {
+		nome = novoNome;
+		return (nome);
+	}
+	
+	public String getName() {
+		return nome;
+	}
+
+}
