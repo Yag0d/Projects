@@ -11,10 +11,9 @@ public class sHIRIU {
 		
 		System.out.printf("Nome atual: %s\n", pessoa.getName());
 		System.out.println("Digite seu nome: ");
-		pessoa.setName(in.nextLine());
+		pessoa1.setName(in.nextLine());
 		
 		System.out.printf("Novo nome: %s\n", pessoa.getName());
-		
 	}
 
 }
